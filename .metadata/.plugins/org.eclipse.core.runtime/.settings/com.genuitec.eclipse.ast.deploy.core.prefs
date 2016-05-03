@@ -1,0 +1,14 @@
+#Thu Mar 24 09:18:46 CST 2016
+tomcat7Server.Demo1.deployIsOverProject=false
+tomcat7Server.Demo1.isExploded=true
+tomcat7Server.Demo1.contextRoot=/Demo1
+tomcat7Server.Demo1.isUptoDate=true
+tomcat7Server.Demo1.shouldOverwrite=false
+tomcat7Server.Demo1.type=WebDeployment
+tomcat7Server.Demo1.IEARProjectName=
+tomcat7Server.Demo1.deploymentPath=C\:\\apache-tomcat-7.0.67\\webapps\\Demo1
+eclipse.preferences.version=1
+tomcat7Server.Demo1.isDeployed=true
+tomcat7Server.Demo1.shouldBackup=false
+tomcat7Server.Demo1.altContextRoot=
+tomcat7Server.Demo1.noFileCopy=false

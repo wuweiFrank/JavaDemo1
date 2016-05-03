@@ -1,0 +1,89 @@
+<%@ page language="java" import="java.util.*" pageEncoding="utf-8"%>
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Main Pages</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css" rel="stylesheet">
+    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.js"></script>
+    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.js"></script>
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  
+<!-- NAVBAR
+================================================== -->
+  <body>
+  	<div class="container">
+  		<nav class='navbar navbar-inverse' role="navigation" style="height: auto;">
+			 <div class="navbar-header">
+	      		<a class="navbar-brand" href="#">Project</a>
+	   		</div>
+		    <div>
+		        <ul class="nav navbar-nav">
+		            <li>
+		                <a href="#"><span class="glyphicon glyphicon-home"></span>Home</a>
+		            </li>
+		            <li >
+		                <a href="#"><span class="glyphicon glyphicon-info-sign"></span>Notification</a>
+		            </li>
+		            <li>
+		                <a href="#"><span class="glyphicon glyphicon-user"></span>Conference</a>                
+		            </li>
+		            <li>
+		            	<a href="#"><span class="glyphicon glyphicon-list"></span>Schedule</a>
+		            </li>
+		            <li>
+		            	<a href="#"><span class="glyphicon glyphicon-map-marker"></span>Map</a>
+		            </li>
+		            <li>
+		            	<a href="#">Help</a>
+		            </li>
+		        </ul>
+		    </div>
+		</nav>
+  	</div>
+
+	<div class="container" align="left">
+			<!-- 想在这里添加一个系统左右功能的操作  -->
+			<dl >
+			<dt class='dl-horizontal unstyled'><h3>数据查询</h3></dt>
+				<dd  class="btn red-stripe">人员查询</dd>
+				<dd  class="btn red-stripe">项目查询</dd>
+				<dd  class="btn red-stripe">项目查询</dd>
+			<dt class='dl-horizontal unstyled'> <h3>数据管理 </h3></dt>
+				<dd  class="btn red-stripe">人员管理</dd>
+				<dd  class="btn red-stripe">项目管理</dd>
+			<dt class='dl-horizontal unstyled'><h3> 数据发布</h3></dt>
+				<dd class="btn red-stripe">新闻发布</dd>
+				<dd class="btn red-stripe">通知发布</dd>
+				<dd class="btn red-stripe">会议安排布</dd>
+			<dt class='dl-horizontal unstyled'> <h3>数据上传与下载</h3></dt>	
+				<dd class="btn red-stripe">数据上传</dd>
+				<dd class="btn red-stripe">数据下载</dd>
+			</dl>
+	</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+  </body>
+</html>

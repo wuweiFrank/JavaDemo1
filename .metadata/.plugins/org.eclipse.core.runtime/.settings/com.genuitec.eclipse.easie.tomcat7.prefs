@@ -1,0 +1,10 @@
+#Thu Mar 24 09:49:51 CST 2016
+TOMCAT_HOME=C\:\\apache-tomcat-7.0.67
+TOMCAT_TEMP=C\:\\apache-tomcat-7.0.67\\temp
+LIBRARY_PATH="C\:\\Program Files (x86)\\Java\\jdk1.8.0_66\\bin;C\:\\apache-tomcat-7.0.67\\bin"
+TOMCAT_BASE=C\:\\apache-tomcat-7.0.67
+ENDORSED_DIRS="C\:\\apache-tomcat-7.0.67/common/endorsed"
+eclipse.preferences.version=1
+JDK_INSTALLATION_NAME=jdk1.8.0_66
+JDK_HOME=C\:\\Program Files (x86)\\Java\\jdk1.8.0_66
+SERVER_ENABLEMENT=true

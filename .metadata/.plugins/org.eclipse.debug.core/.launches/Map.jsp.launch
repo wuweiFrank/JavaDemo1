@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.dltk.javascript.launching.JavaScriptLaunchConfigurationType">
+<stringAttribute key="console_id" value="1461587392627"/>
+<booleanAttribute key="dbgp_break_on_debugger" value="false"/>
+<booleanAttribute key="dbgp_break_on_error" value="false"/>
+<booleanAttribute key="dbgp_break_on_exception" value="false"/>
+<booleanAttribute key="enableBreakOnFirstLine" value="false"/>
+<booleanAttribute key="enableDbgpLogging" value="false"/>
+<stringAttribute key="mainScript" value="WebRoot/Map.jsp"/>
+<stringAttribute key="nature" value="org.eclipse.dltk.javascript.core.nature"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Demo1/WebRoot/Map.jsp"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="project" value="Demo1"/>
+<stringAttribute key="url" value=""/>
+<booleanAttribute key="use_dltk_interactive_console" value="false"/>
+</launchConfiguration>
