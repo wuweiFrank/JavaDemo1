@@ -22,6 +22,81 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
     <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.js"></script>
     <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.js"></script>
 
+
+    <style>
+@import url(http://fonts.googleapis.com/css?family=Anaheim);
+
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+	box-sizing: border-box;
+}
+*:before,
+*:after{
+	box-sizing: border-box;
+}
+html,
+body{
+	min-height: 100%;
+}
+.container{
+	position: relative;
+	perspective: 1000;
+}
+#carousel{
+	width: 80%;
+	height: 100%;
+	transform-style: preserve-3d;
+	animation: rotation 20s infinite linear;
+}
+#carousel:hover{
+	animation-play-state: paused;
+}
+#carousel figure{
+	display: block;
+	position: absolute;
+	width: 186px;
+	height: 116px;
+	left: 40%;
+	top: 10px;
+	overflow: hidden;
+}
+#carousel figure:nth-child(1){transform: rotateY(0deg) translateZ(288px);}
+#carousel figure:nth-child(2) { transform: rotateY(40deg) translateZ(288px);}
+#carousel figure:nth-child(3) { transform: rotateY(80deg) translateZ(288px);}
+#carousel figure:nth-child(4) { transform: rotateY(120deg) translateZ(288px);}
+#carousel figure:nth-child(5) { transform: rotateY(160deg) translateZ(288px);}
+#carousel figure:nth-child(6) { transform: rotateY(200deg) translateZ(288px);}
+#carousel figure:nth-child(7) { transform: rotateY(240deg) translateZ(288px);}
+#carousel figure:nth-child(8) { transform: rotateY(280deg) translateZ(288px);}
+#carousel figure:nth-child(9) { transform: rotateY(320deg) translateZ(288px);}
+
+img{
+	-webkit-filter: grayscale(1);
+	cursor: pointer;
+	transition: all .5s ease;
+}
+img:hover{
+	-webkit-filter: grayscale(0);
+  transform: scale(1.2,1.2);
+}
+
+@keyframes rotation{
+	from{
+		transform: rotateY(0deg);
+	}
+	to{
+		transform: rotateY(360deg);
+	}
+}
+</style>
+
+  <script src="gallery/js/prefixfree.min.js"></script>
+
+
+
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
   </head>
@@ -65,8 +140,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			<!-- 想在这里添加一个系统左右功能的操作  -->
 			<dl >
 			<dt class='dl-horizontal unstyled'><h3><span class="glyphicon glyphicon-search">数据查询</span></h3></dt>
-				<dd><a  class="btn red-stripe" onclick="javascript:window.location.href='#1';">人员查询</a></dd>
-				<dd><a  class="btn red-stripe" onclick="javascript:window.location.href='#2';">项目查询</a></dd>
+				<dd><a  class="btn red-stripe" onclick="javascript:window.location.href='searchpeople.jsp';">人员查询</a></dd>
+				<dd><a  class="btn red-stripe" onclick="javascript:window.location.href='searchproject.jsp';">项目查询</a></dd>
 				<dd><a  class="btn red-stripe" onclick="javascript:window.location.href='#3';">通知查询</a></dd>
 			<dt class='dl-horizontal unstyled'> <h3><span class="glyphicon glyphicon-tasks">数据管理 </span></h3></dt>
 				<dd><a  class="btn red-stripe" onclick="javascript:window.location.href='#4';">人员管理</a></dd>
@@ -81,35 +156,27 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			</dl>
 	</div>
 	<div class="col-xs-9">
-			
-	<div id="myCarousel" class="carousel slide">
-	   <!-- 轮播（Carousel）指标 -->
-	   <ol class="carousel-indicators">
-	      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-	      <li data-target="#myCarousel" data-slide-to="1"></li>
-	      <li data-target="#myCarousel" data-slide-to="2"></li>
-	   </ol>   
-	   <!-- 轮播（Carousel）项目 -->
-	   <div class="carousel-inner">
-	      <div class="item active">
-	         <img src="slide/slide1.jpg" alt="First slide">
-	      </div>
-	      <div class="item">
-	         <img src="slide/slide2.jpg" alt="Second slide">
-	      </div>
-	      <div class="item">
-	         <img src="slide/slide3.jpg" alt="Third slide">
-	      </div>
-	   </div>
-	   <!-- 轮播（Carousel）导航 -->
-	   <a class="carousel-control left" href="#myCarousel" 
-	      data-slide="prev">&lsaquo;</a>
-	   <a class="carousel-control right" href="#myCarousel" 
-	      data-slide="next">&rsaquo;</a>
-	</div> 
+			<div id="carousel">
+				<figure><img src="slide/1.jpg" alt=""></figure>
+				<figure><img src="slide/2.jpg" alt=""></figure>
+				<figure><img src="slide/3.jpg" alt=""></figure>
+				<figure><img src="slide/4.jpg" alt=""></figure>
+				<figure><img src="slide/5.jpg" alt=""></figure>
+				<figure><img src="slide/6.jpg" alt=""></figure>
+				<figure><img src="slide/7.jpg" alt=""></figure>
+				<figure><img src="slide/8.jpg" alt=""></figure>
+				<figure><img src="slide/9.jpg" alt=""></figure>
+			</div>
+			<script src='gallery/js/none.js'></script>
+		  	<script src="gallery/js/index.js"></script>
+			<div style="text-align:center;clear:both">
+			<script src="/gg_bd_ad_720x90.js" type="text/javascript"></script>
+			<script src="/follow.js" type="text/javascript"></script>
+			</div>
 	
-	</div>
-	</div>
+	
+			</div>
+		</div>
 	</div>
 
     <!-- Bootstrap core JavaScript

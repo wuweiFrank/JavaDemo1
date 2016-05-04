@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workbench progressCount="74" version="2.0">
 <workbenchAdvisor/>
-<window height="859" maximized="true" width="1102" x="486" y="711">
+<window height="859" maximized="true" width="1102" x="1044" y="118">
 <fastViewData fastViewLocation="1024"/>
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
 <coolbarLayout>
 <coolItem id="group.file" itemType="typeGroupMarker"/>
-<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="124" y="22"/>
+<coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="155" y="22"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="com.genuitec.eclipse.imageeditor.editor.ImageEditor" itemType="typePlaceholder" x="-1" y="-1"/>
 <coolItem id="com.genuitec.eclipse.j2eedt.core.ejb" itemType="typeToolBarContribution" x="55" y="22"/>
@@ -48,48 +48,48 @@
 <part id="3"/>
 <part id="4"/>
 <part id="5"/>
+<part id="6"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="index.jsp" partName="index.jsp" path="D:/my_pro/javaProj/Demo/Demo1/WebRoot/index.jsp" title="index.jsp" tooltip="Demo1/WebRoot/index.jsp" workbook="DefaultEditorWorkbook">
+<editor id="org.eclipse.jst.jsp.core.jspsource.source" name="index.jsp" partName="index.jsp" path="D:/my_pro/javaProj/Demo/GitDemo/JavaDemo1/Demo1/WebRoot/index.jsp" title="index.jsp" tooltip="Demo1/WebRoot/index.jsp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Demo1/WebRoot/index.jsp"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="3314" selectionTopPixel="1710"/>
 </editor>
-<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="main.jsp" partName="main.jsp" path="D:/my_pro/javaProj/Demo/Demo1/WebRoot/main.jsp" title="main.jsp" tooltip="Demo1/WebRoot/main.jsp" workbook="DefaultEditorWorkbook">
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="main.jsp" partName="main.jsp" path="D:/my_pro/javaProj/Demo/GitDemo/JavaDemo1/Demo1/WebRoot/main.jsp" title="main.jsp" tooltip="Demo1/WebRoot/main.jsp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Demo1/WebRoot/main.jsp"/>
 </editor>
-<editor activePart="true" focus="true" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="Map.jsp" partName="Map.jsp" path="D:/my_pro/javaProj/Demo/Demo1/WebRoot/Map.jsp" title="Map.jsp" tooltip="Demo1/WebRoot/Map.jsp" workbook="DefaultEditorWorkbook">
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="Map.jsp" partName="Map.jsp" path="D:/my_pro/javaProj/Demo/GitDemo/JavaDemo1/Demo1/WebRoot/Map.jsp" title="Map.jsp" tooltip="Demo1/WebRoot/Map.jsp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Demo1/WebRoot/Map.jsp"/>
 </editor>
-<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="Notification.jsp" partName="Notification.jsp" path="D:/my_pro/javaProj/Demo/Demo1/WebRoot/Notification.jsp" title="Notification.jsp" tooltip="Demo1/WebRoot/Notification.jsp" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="Notification.jsp" partName="Notification.jsp" path="D:/my_pro/javaProj/Demo/GitDemo/JavaDemo1/Demo1/WebRoot/Notification.jsp" title="Notification.jsp" tooltip="Demo1/WebRoot/Notification.jsp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Demo1/WebRoot/Notification.jsp"/>
 </editor>
-<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="conference.jsp" partName="conference.jsp" path="D:/my_pro/javaProj/Demo/Demo1/WebRoot/conference.jsp" title="conference.jsp" tooltip="Demo1/WebRoot/conference.jsp" workbook="DefaultEditorWorkbook">
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="conference.jsp" partName="conference.jsp" path="D:/my_pro/javaProj/Demo/GitDemo/JavaDemo1/Demo1/WebRoot/conference.jsp" title="conference.jsp" tooltip="Demo1/WebRoot/conference.jsp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Demo1/WebRoot/conference.jsp"/>
 </editor>
-<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="schedule.jsp" partName="schedule.jsp" path="D:/my_pro/javaProj/Demo/Demo1/WebRoot/schedule.jsp" title="schedule.jsp" tooltip="Demo1/WebRoot/schedule.jsp" workbook="DefaultEditorWorkbook">
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="schedule.jsp" partName="schedule.jsp" path="D:/my_pro/javaProj/Demo/GitDemo/JavaDemo1/Demo1/WebRoot/schedule.jsp" title="schedule.jsp" tooltip="Demo1/WebRoot/schedule.jsp" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Demo1/WebRoot/schedule.jsp"/>
+</editor>
+<editor id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="searchpeople.jsp" partName="searchpeople.jsp" path="D:/my_pro/javaProj/Demo/GitDemo/JavaDemo1/Demo1/WebRoot/searchpeople.jsp" title="searchpeople.jsp" tooltip="Demo1/WebRoot/searchpeople.jsp" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Demo1/WebRoot/searchpeople.jsp"/>
 </editor>
 </editors>
 <views>
 <view id="com.genuitec.eclipse.ui.HTMLView" partName="Web Browser"/>
-<view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Type Hierarchy"/>
-<view id="uky.article.imageviewer.views.ImageView" partName="Image Preview">
-<viewState/>
-</view>
-<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
-<viewState/>
-</view>
-<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
-<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
-<viewState/>
-</view>
 <view id="org.eclipse.wst.common.snippets.internal.ui.SnippetsView" partName="Snippets"/>
 <view id="com.genuitec.eclipse.ast.deploy.core.serverview" partName="Servers">
 <viewState/>
 </view>
+<view id="uky.article.imageviewer.views.ImageView" partName="Image Preview">
+<viewState/>
+</view>
+<view id="org.eclipse.jdt.ui.TypeHierarchy" partName="Type Hierarchy"/>
 <view id="org.eclipse.ui.views.PropertySheet" partName="Properties">
+<viewState/>
+</view>
+<view id="org.eclipse.debug.ui.DebugView" partName="Debug">
 <viewState/>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
@@ -103,6 +103,9 @@
 <visible IMemento.internal.id="org.eclipse.ui.ide.locationField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.markerType"/>
 </viewState>
+</view>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
 </view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState group_libraries="1" layout="2" linkWithEditor="0" rootMode="1" workingSetName="">
@@ -134,7 +137,8 @@
 </customFilters>
 </viewState>
 </view>
-<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
 </views>
@@ -370,7 +374,7 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.16396019" ratioLeft="313" ratioRight="1596" relationship="2" relative="cvslocation"/>
+<info part="org.eclipse.ui.editorss" ratio="0.2037716" ratioLeft="389" ratioRight="1520" relationship="2" relative="cvslocation"/>
 <info folder="true" part="org.eclipse.ui.internal.ViewStack@6d2c4b09" ratio="0.7494647" ratioLeft="700" ratioRight="234" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
 <page content="org.eclipse.ui.views.PropertySheet" label="Properties"/>
@@ -407,77 +411,111 @@
 <workingSets/>
 <navigationHistory>
 <editors>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Demo1/WebRoot/main.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Demo1/WebRoot/Map.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Demo1/WebRoot/Notification.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Demo1/WebRoot/conference.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Demo1/WebRoot/Notification.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Demo1/WebRoot/Map.jsp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Demo1/WebRoot/schedule.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Demo1/WebRoot/conference.jsp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Demo1/WebRoot/main.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Demo1/WebRoot/Notification.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" path="/Demo1/WebRoot/js/locales/bootstrap-datetimepicker.ja.js"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" path="/Demo1/WebRoot/js/jquery-2.1.1.min.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" path="/Demo1/WebRoot/js/jquery-1.8.3.min.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/Demo1/WebRoot/index.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Demo1/WebRoot/Notification.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" path="/Demo1/WebRoot/js/jquery-1.8.3.min.js"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Demo1/WebRoot/Map.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Demo1/WebRoot/conference.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Demo1/WebRoot/searchpeople.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.jst.jsp.core.jspsource.source" path="/Demo1/WebRoot/searchpeople.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Demo1/WebRoot/main.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Demo1/WebRoot/schedule.jsp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Demo1/WebRoot/schedule.jsp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Demo1/WebRoot/conference.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Demo1/WebRoot/Map.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Demo1/WebRoot/main.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Demo1/WebRoot/Map.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Demo1/WebRoot/main.jsp"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Demo1/WebRoot/Notification.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Demo1/WebRoot/conference.jsp"/>
-<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Demo1/WebRoot/Map.jsp"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" path="/Demo1/WebRoot/main.jsp"/>
 </editors>
-<item historyLabel="conference.jsp" index="3"/>
-<item historyLabel="Map.jsp" index="1"/>
-<item historyLabel="Notification.jsp" index="2"/>
-<item historyLabel="Map.jsp" index="1"/>
-<item historyLabel="conference.jsp" index="3"/>
-<item historyLabel="main.jsp" index="0"/>
-<item historyLabel="Notification.jsp" index="2"/>
-<item historyLabel="conference.jsp" index="3"/>
-<item historyLabel="Notification.jsp" index="2"/>
-<item historyLabel="conference.jsp" index="3"/>
-<item historyLabel="Notification.jsp" index="2"/>
-<item historyLabel="conference.jsp" index="3"/>
-<item historyLabel="Notification.jsp" index="2"/>
-<item historyLabel="conference.jsp" index="3"/>
-<item historyLabel="Notification.jsp" index="4"/>
-<item historyLabel="Map.jsp" index="5"/>
-<item historyLabel="Notification.jsp" index="4"/>
-<item historyLabel="conference.jsp" index="3"/>
-<item historyLabel="schedule.jsp" index="6"/>
-<item historyLabel="main.jsp" index="7"/>
-<item historyLabel="Notification.jsp" index="4"/>
-<item historyLabel="conference.jsp" index="3"/>
-<item historyLabel="schedule.jsp" index="6"/>
-<item historyLabel="jquery-2.1.1.min.js" index="8">
+<item historyLabel="schedule.jsp" index="0"/>
+<item historyLabel="main.jsp" index="2"/>
+<item historyLabel="conference.jsp" index="1"/>
+<item historyLabel="Notification.jsp" index="3"/>
+<item historyLabel="bootstrap-datetimepicker.ja.js" index="4">
 <position info="not_deleted" x="0" y="0"/>
 </item>
-<item historyLabel="schedule.jsp" index="6"/>
-<item historyLabel="conference.jsp" index="3"/>
-<item historyLabel="Notification.jsp" index="4"/>
-<item historyLabel="Map.jsp" index="5"/>
-<item historyLabel="main.jsp" index="7"/>
-<item historyLabel="schedule.jsp" index="6"/>
-<item historyLabel="Notification.jsp" index="4"/>
-<item historyLabel="schedule.jsp" index="9"/>
-<item historyLabel="conference.jsp" index="10"/>
-<item historyLabel="Notification.jsp" index="4"/>
-<item historyLabel="Map.jsp" index="11"/>
-<item historyLabel="main.jsp" index="12"/>
-<item historyLabel="Map.jsp" index="11"/>
-<item historyLabel="Notification.jsp" index="4"/>
-<item historyLabel="conference.jsp" index="10"/>
-<item historyLabel="schedule.jsp" index="9"/>
-<item historyLabel="Map.jsp" index="13"/>
+<item historyLabel="bootstrap-datetimepicker.ja.js" index="4">
+<position info="not_deleted" x="540" y="0"/>
+</item>
+<item historyLabel="bootstrap-datetimepicker.ja.js" index="4">
+<position info="not_deleted" x="226" y="12"/>
+</item>
+<item historyLabel="Notification.jsp" index="3"/>
+<item historyLabel="jquery-2.1.1.min.js" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="jquery-1.8.3.min.js" index="6">
+<position/>
+</item>
+<item historyLabel="jquery-1.8.3.min.js" index="6">
+<position/>
+</item>
+<item historyLabel="jquery-2.1.1.min.js" index="5">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Notification.jsp" index="3"/>
+<item historyLabel="jquery-1.8.3.min.js" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="Notification.jsp" index="3"/>
+<item historyLabel="jquery-1.8.3.min.js" index="6">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="jquery-1.8.3.min.js" index="6">
+<position info="not_deleted" x="4714" y="1"/>
+</item>
+<item historyLabel="index.jsp" index="7">
+<position info="not_deleted" x="3314" y="0"/>
+</item>
+<item historyLabel="Notification.jsp" index="8"/>
+<item historyLabel="jquery-1.8.3.min.js" index="9">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="jquery-1.8.3.min.js" index="9">
+<position info="not_deleted" x="97" y="0"/>
+</item>
+<item historyLabel="jquery-1.8.3.min.js" index="9">
+<position info="not_deleted" x="0" y="52"/>
+</item>
+<item historyLabel="Notification.jsp" index="8"/>
+<item historyLabel="Map.jsp" index="10"/>
+<item historyLabel="Notification.jsp" index="8"/>
+<item historyLabel="conference.jsp" index="11"/>
+<item historyLabel="Notification.jsp" index="8"/>
+<item historyLabel="searchpeople.jsp" index="12">
+<position/>
+</item>
+<item historyLabel="searchpeople.jsp" index="13">
+<position/>
+</item>
+<item historyLabel="conference.jsp" index="11"/>
+<item historyLabel="searchpeople.jsp" index="12"/>
+<item historyLabel="Map.jsp" index="10"/>
 <item historyLabel="main.jsp" index="14"/>
-<item historyLabel="Map.jsp" index="13"/>
-<item historyLabel="Notification.jsp" index="15"/>
-<item historyLabel="conference.jsp" index="16"/>
-<item historyLabel="schedule.jsp" index="9"/>
-<item historyLabel="Map.jsp" index="13"/>
-<item historyLabel="conference.jsp" index="16"/>
-<item historyLabel="schedule.jsp" index="9"/>
-<item active="true" historyLabel="Map.jsp" index="17"/>
+<item historyLabel="index.jsp" index="7">
+<position info="not_deleted" x="3314" y="0"/>
+</item>
+<item historyLabel="Map.jsp" index="10"/>
+<item historyLabel="Notification.jsp" index="8"/>
+<item historyLabel="conference.jsp" index="11"/>
+<item historyLabel="searchpeople.jsp" index="12"/>
+<item historyLabel="schedule.jsp" index="15"/>
+<item historyLabel="searchpeople.jsp" index="12"/>
+<item historyLabel="schedule.jsp" index="16"/>
+<item historyLabel="conference.jsp" index="17"/>
+<item historyLabel="searchpeople.jsp" index="12"/>
+<item historyLabel="Notification.jsp" index="18"/>
+<item historyLabel="searchpeople.jsp" index="12"/>
+<item historyLabel="schedule.jsp" index="16"/>
+<item historyLabel="conference.jsp" index="17"/>
+<item historyLabel="Notification.jsp" index="18"/>
+<item historyLabel="main.jsp" index="19"/>
+<item active="true" historyLabel="Notification.jsp" index="18"/>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -495,8 +533,17 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="jquery-1.8.3.min.js" tooltip="Demo1/WebRoot/js/jquery-1.8.3.min.js">
+<persistable path="/Demo1/WebRoot/js/jquery-1.8.3.min.js"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="jquery-2.1.1.min.js" tooltip="Demo1/WebRoot/js/jquery-2.1.1.min.js">
 <persistable path="/Demo1/WebRoot/js/jquery-2.1.1.min.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="bootstrap-datetimepicker.ja.js" tooltip="Demo1/WebRoot/js/locales/bootstrap-datetimepicker.ja.js">
+<persistable path="/Demo1/WebRoot/js/locales/bootstrap-datetimepicker.ja.js"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="search.jsp" tooltip="Demo1/WebRoot/search.jsp">
+<persistable path="/Demo1/WebRoot/search.jsp"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.webdesigner3.editors.jsp" name="schedule.jsp" tooltip="Demo1/WebRoot/schedule.jsp">
 <persistable path="/Demo1/WebRoot/schedule.jsp"/>
@@ -530,9 +577,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="com.genuitec.eclipse.imageeditor.editor.ImageEditor" name="favicon.png" tooltip="Demo1/assets/ico/favicon.png">
 <persistable path="/Demo1/assets/ico/favicon.png"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.wst.jsdt.ui.CompilationUnitEditor" name="jquery-1.11.1.min.js" tooltip="Demo1/WebRoot/assets/js/jquery-1.11.1.min.js">
-<persistable path="/Demo1/WebRoot/assets/js/jquery-1.11.1.min.js"/>
 </file>
 </mruList>
 </workbench>

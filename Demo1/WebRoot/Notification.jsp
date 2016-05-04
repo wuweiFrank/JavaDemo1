@@ -18,9 +18,16 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" type="text/css" href="bootstrap-3.3.5/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-datepicker.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/default.css">
     <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.js"></script>
     <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.js"></script>
+
+      <link rel="stylesheet" type="text/css" media="all" href="daterangepicker.css" />
+      <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+      <script type="text/javascript" src="daterange/moment.js"></script>
+      <script type="text/javascript" src="daterange/daterangepicker.js"></script>
+
 
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
@@ -59,33 +66,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		</nav>
   	</div>
 	<div class="container" align=left style="background:#AAA; color:#111" style="background-image:url('img\notification_bg.jpg');">
-		<div class="row">
+
 	<div class="col-xs-3">
-<script type="text/javascript">
-var tableLine=null;
-function selTableLine(evt){
-    var el=evt.srcElement?evt.srcElement:evt.target;
-    if(el.tagName.toIpperCase()!="TD") 
-    	return;
-    var tr=el.parentNode;
-	alert(tr.cells[0].innerHTML);
-    tr.style.backgroundColor="blue";
-    if(selTr !=null)
-    {
-        tableLine.style.backgroundColor ="white";
-    }
-    return tr;	
-}
-function getRowNumber(obj){
-	var trObj = getRowObj(obj);    
-	var trArr = trObj.parentNode.children; 
-	for(var trNo= 0; trNo < trArr.length; trNo++){  
-		if(trObj == trObj.parentNode.children[trNo]){ 
-		  tableLine=trNo+1;  
-		} 
-	}
-}
-</script>
 		<!-- 在这里写一个时间列表的窗口-->
 		<a href="${pageContext.request.contextPath}/Notification/NotificationServlet?newPage=1">通知信息</a>
         <table  class="table table-striped">
@@ -112,6 +94,22 @@ function getRowNumber(obj){
            href="${pageContext.request.contextPath}/Notification/NotificationServlet?newPage=${newPage+1>=countPage?countPage:newPage+1}">下一页</a>
        <a
            href="${pageContext.request.contextPath}/Notification/NotificationServlet?newPage=${countPage}">末页</a>
+		
+		<form class="navbar-form" role="search">
+          <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search" name="daterange" value="01/01/2015 - 01/31/2015">
+            <div class="input-group-btn">
+              <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+            </div>
+          </div>
+        </form>
+				 
+	<script type="text/javascript">
+	$(function() {
+	    $('input[name="daterange"]').daterangepicker();
+	});
+	
+	</script>
 		</div>
 		<div class="col-xs-9" align="center">
 			<ul class="list-group">
